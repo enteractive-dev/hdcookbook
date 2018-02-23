@@ -122,7 +122,7 @@ public class MovieObjectFile {
         if (!FILETYPE.equals(type)) {
             throw new IOException("Type indicator mismatch, read " + type);
         }
-        if ("0100".equals(version) || "0200".equals(version)) {
+        if ("0100".equals(version) || "0200".equals(version) || "0300".equals(version)) {
            setVersion(version);
         } else {
             throw new IOException("Unexpected version number read, " + version);            

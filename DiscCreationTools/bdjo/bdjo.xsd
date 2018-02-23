@@ -304,6 +304,7 @@
 
   <xs:simpleType name="haviDeviceConfig">
     <xs:restriction base="xs:string">
+      <xs:enumeration value="UHD_1920_1080"/>
       <xs:enumeration value="QHD_960_540"/>
       <xs:enumeration value="SD_60HZ_720_480"/>
       <xs:enumeration value="SD_50HZ_720_576"/>
@@ -315,6 +316,7 @@
 
   <xs:simpleType name="version">
     <xs:restriction base="xs:string">
+      <xs:enumeration value="V_0300"/>
       <xs:enumeration value="V_0200"/>
       <xs:enumeration value="V_0100"/>
     </xs:restriction>

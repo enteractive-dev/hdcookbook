@@ -63,7 +63,7 @@ package net.java.bd.tools.bdjo;
 public enum Version {
     // Section 10.2.1.3 "version_number"
     // Prefix "V_" added to make it legal identifier
-    V_0100, V_0200;
+    V_0100, V_0200, V_0300;
     
     public String getValue() {
         // remove "V_" to get actual version

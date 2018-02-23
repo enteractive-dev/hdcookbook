@@ -62,12 +62,13 @@ package net.java.bd.tools.bdjo;
  * @author A. Sundararajan
  */
 public enum HaviDeviceConfig {
-    HD_1920_1080,    // 1 
-    HD_1280_720,     // 2 
+    HD_1920_1080,    // 1
+    HD_1280_720,     // 2
     SD,              // 3
-    SD_50HZ_720_576, // 4 
-    SD_60HZ_720_480, // 5 
-    QHD_960_540;     // 6 
+    SD_50HZ_720_576, // 4
+    SD_60HZ_720_480, // 5
+    QHD_960_540,     // 6
+    UHD_1920_1080;   // 7
     
     // actual id used in file is (ordinal + 1)
     public int getId() {
